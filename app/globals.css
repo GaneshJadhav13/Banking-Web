@@ -247,6 +247,11 @@
     @apply gap-[18px] border-b-2 flex px-2 sm:px-4 py-2 transition-all;
   }
 
+  .text-bankGradient {
+  @apply bg-gradient-to-r from-[#00C9FF] to-[#92FE9D] text-transparent bg-clip-text;
+}
+
+
   /* Mobile nav */
   .mobilenav-sheet {
     @apply flex h-[calc(100vh-72px)] flex-col justify-between overflow-y-auto;
@@ -378,5 +383,9 @@
 
   .sidebar-label {
     @apply text-16 font-semibold text-black-2 max-xl:hidden;
+
   }
+
+
 }
+
